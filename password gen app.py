@@ -47,6 +47,8 @@ def gen():
 
 window = Tk()
 window.geometry("400x500")
+window.maxsize(400, 500)
+window.minsize(300, 500)
 window.title("Generator Hasła")
 window.configure(bg="#f7f7f7")
 
