@@ -1,8 +1,10 @@
 import random
 import string
-
-length = 20
-amount = 3
+try:
+    length = int(input("number of characters in the password: "))
+    amount = int(input("number of passwords:"))
+except ValueError:
+    print("Invalid number")
 
 uppercase = string.ascii_uppercase
 lowercase = string.ascii_lowercase
