@@ -54,7 +54,6 @@ window.configure(bg="#f7f7f7")
 
 title_label = Label(window, text="Generator Hasła", font=("Arial", 30, "bold"), bg="#f7f7f7", pady=10)
 title_label.pack()
-print("test")
 
 length_label = Label(window, text="Podaj długość hasła:", font=("Arial", 12), bg="#f7f7f7")
 length_label.pack(pady=(20, 5))
